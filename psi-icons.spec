@@ -1,3 +1,4 @@
+
 Summary:	An extra iconset for PSI Jabber client
 Summary(pl):	Zestaw ikonek do klienta Jabbera PSI
 Name:		psi-icons
@@ -5,7 +6,7 @@ Version:	1.1
 %define		tar_version	%(echo %{version} | sed 's,\\.,-,g')
 Release:	1
 License:	GPL
-Group:		X11/Applications/Networking
+Group:		Applications/Communications
 Source0:	%{name}-%{tar_version}.tar.gz
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
@@ -38,20 +39,20 @@ An icon set for PSI Jabber client:
 
 %description -l pl
 Zestaw ikonek dla klienta Jabbera PSI:
-- BeOS Style (ikony przekonwertowane przez Gossip)
-- Cosmic
-- Crystal (KDE 3, Crystal IconSet)
-- Gabber
-- Licq - icq2 Style
-- ikonki Jilly'ego
-- Licq - Computer Style
+- w stylu BeOSa (ikony przekonwertowane przez Gossip)
+- kosmiczne
+- Crystal (KDE 3, zestaw ikon Crystal)
+- w stylu Gabbera
+- Licq - w stylu icq2
+- ikonki Jilly
+- Licq - w stylu komputerowym
 - ikonki Mike'a
-- Smiley - Fun Style
+- bu¼ki - styl zabawny
 
 %package beos
 Summary:	Beos icons
-Summary(pl):	Ikonki Beos
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki w stylu Beosa
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -64,7 +65,7 @@ Requires:	psi
 %package cosmic
 Summary:	Cosmic icons
 Summary(pl):	Ikonki kosmiczne
-Group:		X11/Applications/Networking
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -77,7 +78,7 @@ Requires:	psi
 %package crystal
 Summary:	Crystal icons
 Summary(pl):	Ikonki Crystal
-Group:		X11/Applications/Networking
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -89,8 +90,8 @@ Requires:	psi
 
 %package gabber
 Summary:	Gabber icons
-Summary(pl):	Ikonki Gabbera
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki w stylu Gabbera
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -102,8 +103,8 @@ Requires:	psi
 
 %package icq2
 Summary:	ICQ2 icons
-Summary(pl):	Ikonki ICQ2
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki w stylu ICQ2
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -115,8 +116,8 @@ Requires:	psi
 
 %package jilly
 Summary:	Jilly's icons
-Summary(pl):	Ikonki Jilly'ego
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki Jilly
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -128,8 +129,8 @@ Requires:	psi
 
 %package licq
 Summary:	Licq icons
-Summary(pl):	Ikonki Licq
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki w stylu Licq
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -142,7 +143,7 @@ Requires:	psi
 %package mike
 Summary:	Mike's icons
 Summary(pl):	Ikonki Mike'a
-Group:		X11/Applications/Networking
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
@@ -154,8 +155,8 @@ Requires:	psi
 
 %package smiley
 Summary:	Smiley icons
-Summary(pl):	Ikonki Smiley
-Group:		X11/Applications/Networking
+Summary(pl):	Ikonki bu¼ki
+Group:		Applications/Communications
 Obsoletes:	psi-icons
 Requires:	psi
 
