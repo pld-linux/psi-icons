@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{tar_version}.tar.gz
+# Source0-md5:	07b8f06d65cbb08997d16ca9c715b1a4
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
 Requires:	psi
