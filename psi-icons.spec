@@ -173,11 +173,11 @@ Requires:	psi
 "smiley" - zestaw ikonek dla klienta Jabbera PSI.
 
 %package ganja
-Summary:        Ganja icons made by bluszcz@jabberpl.org
-Summary(pl):    Ikonki gandzia zrobione przez bluszcza (bluszcz@jabberpl.org)
-Group:          Applications/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+Summary:	Ganja icons made by bluszcz@jabberpl.org
+Summary(pl):	Ikonki gandzia zrobione przez bluszcza (bluszcz@jabberpl.org)
+Group:		Applications/Communications
+Obsoletes:	psi-icons
+Requires:	psi
 
 %description ganja
 "ganja" - icon set for PSI Jabber client.
