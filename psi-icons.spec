@@ -30,6 +30,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_iconsdir	%{_datadir}/psi/iconsets
 
 %description
+An icon set for PSI Jabber client:
+- BeOS Style (icon conversion by Gossip)
 - Cosmic
 - Crystal (KDE 3, Crystal IconSet)
 - Gabber
@@ -192,14 +194,12 @@ for file in `ls -1 *.zip`
 do
 	mkdir `basename $file .zip`
 	cd `basename $file .zip`
-	unzip ../$file
+	unzip -q ../$file
 	rm ../$file
 	cd ..
 done
 
-rm -f ../../SOURCES/grass.tar
-bzip2 -d ../../SOURCES/grass.tar.bz2
-tar -xf ../../SOURCES/grass.tar
+bzip2 -dc %{SOURCE1} | tar xf -
 
 %install
 rm -rf $RPM_BUILD_ROOT
