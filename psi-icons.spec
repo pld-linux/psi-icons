@@ -53,7 +53,7 @@ Zestaw ikonek dla klienta Jabbera PSI:
 - Licq - w stylu komputerowym
 - ikonki Mike'a
 - bu¼ki - styl zabawny
-- ganja - Co¶ od bluszcza dla u¿ytkowików dystrybucji GrassLinux
+- ganja - Co¶ od bluszcza dla u¿ytkowników dystrybucji GrassLinux
 
 %package beos
 Summary:	Beos icons
