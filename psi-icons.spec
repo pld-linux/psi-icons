@@ -9,6 +9,7 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{tar_version}.tar.gz
 # Source0-md5:	07b8f06d65cbb08997d16ca9c715b1a4
+Source1:	http://krzysiek.kobylkowska.net/grass.tar
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
 Requires:	psi
@@ -21,14 +22,13 @@ Obsoletes:	psi-icons-jilly
 Obsoletes:	psi-icons-licq
 Obsoletes:	psi-icons-mike
 Obsoletes:	psi-icons-smiley
+Obsoletes:	psi-icons-ganja
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_iconsdir	%{_datadir}/psi/iconsets
 
 %description
-An icon set for PSI Jabber client:
-- BeOS Style (icon conversion by Gossip)
 - Cosmic
 - Crystal (KDE 3, Crystal IconSet)
 - Gabber
@@ -37,6 +37,7 @@ An icon set for PSI Jabber client:
 - Licq - Computer Style
 - Mike's icons
 - Smiley - Fun Style
+- Ganja - Something really special from bluszcz@jabberpl.org ;)
 
 %description -l pl
 Zestaw ikonek dla klienta Jabbera PSI:
@@ -49,6 +50,7 @@ Zestaw ikonek dla klienta Jabbera PSI:
 - Licq - w stylu komputerowym
 - ikonki Mike'a
 - bu¼ki - styl zabawny
+- ganja - Co¶ od bluszcza dla u¿ytkowików dystrybucji GrassLinux
 
 %package beos
 Summary:	Beos icons
@@ -167,6 +169,20 @@ Requires:	psi
 %description smiley -l pl
 "smiley" - zestaw ikonek dla klienta Jabbera PSI.
 
+%package ganja
+Summary:        Ganja icons made by bluszcz@jabberpl.org
+Summary(pl):    Ikonki gandzia zrobione przez bluszcza (bluszcz@jabberpl.org)
+Group:          Applications/Communications
+Obsoletes:      psi-icons
+Requires:       psi
+
+%description ganja
+"ganja" - icon set for PSI Jabber client.
+
+%description ganja -l pl
+"ganja" - zestaw ikonek dla klienta Jabbera PSI.
+
+
 %prep
 %setup -q -n %{name}-%{tar_version}
 
@@ -180,9 +196,11 @@ do
 	cd ..
 done
 
+tar -xf grass.tar
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_iconsdir}/{beos,cosmic,crystal,gabber,icq2,jilly,licq,mike,smiley}
+install -d $RPM_BUILD_ROOT%{_iconsdir}/{beos,cosmic,crystal,gabber,icq2,jilly,licq,mike,smiley,ganja}
 
 install beos/* $RPM_BUILD_ROOT%{_iconsdir}/beos
 install cosmic/* $RPM_BUILD_ROOT%{_iconsdir}/cosmic
@@ -193,6 +211,7 @@ install jilly/* $RPM_BUILD_ROOT%{_iconsdir}/jilly
 install licq/* $RPM_BUILD_ROOT%{_iconsdir}/licq
 install mike/* $RPM_BUILD_ROOT%{_iconsdir}/mike
 install smiley/* $RPM_BUILD_ROOT%{_iconsdir}/smiley
+install grass/* $RPM_BUILD_ROOT%{_iconsdir}/ganja
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -236,3 +255,7 @@ rm -rf $RPM_BUILD_ROOT
 %files smiley
 %defattr(644,root,root,755)
 %{_iconsdir}/smiley
+
+%files ganja
+%defattr(644,root,root,755)
+%{_iconsdir}/ganja
