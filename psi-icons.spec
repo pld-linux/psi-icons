@@ -1,11 +1,12 @@
 Summary:	An extra iconset for PSI Jabber client
 Summary(pl):	Zestaw ikonek do klienta Jabbera PSI
 Name:		psi-icons
-Version:	1
+Version:	1.1
+%define		tar_version	%(echo %{version} | sed 's,\\.,-,g')
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	%{name}-%{version}-%{release}.tar.gz
+Source0:	%{name}-%{tar_version}.tar.gz
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
 Requires:	psi
@@ -62,7 +63,7 @@ Requires:	psi
 
 %package cosmic
 Summary:	Cosmic icons
-Summary(pl):	Ikonki Cosmic
+Summary(pl):	Ikonki kosmiczne
 Group:		X11/Applications/Networking
 Obsoletes:	psi-icons
 Requires:	psi
@@ -88,7 +89,7 @@ Requires:	psi
 
 %package gabber
 Summary:	Gabber icons
-Summary(pl):	Ikonki Gabber
+Summary(pl):	Ikonki Gabbera
 Group:		X11/Applications/Networking
 Obsoletes:	psi-icons
 Requires:	psi
@@ -165,7 +166,7 @@ Requires:	psi
 "smiley" - zestaw ikonek dla klienta Jabbera PSI.
 
 %prep
-%setup -q -n %{name}-%{version}-%{release}
+%setup -q -n %{name}-%{tar_version}
 
 %build
 for file in `ls -1 *.zip`
@@ -179,32 +180,16 @@ done
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_iconsdir}/{beos,cosmic,crystal,gabber,icq2,jilly,licq,mike,smiley}
 
-install -d $RPM_BUILD_ROOT%{_iconsdir}/beos
 install beos/* $RPM_BUILD_ROOT%{_iconsdir}/beos
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/cosmic
 install cosmic/* $RPM_BUILD_ROOT%{_iconsdir}/cosmic
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/crystal
 install crystal/* $RPM_BUILD_ROOT%{_iconsdir}/crystal
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/gabber
 install gabber/* $RPM_BUILD_ROOT%{_iconsdir}/gabber
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/icq2
 install icq2/* $RPM_BUILD_ROOT%{_iconsdir}/icq2
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/jilly
 install jilly/* $RPM_BUILD_ROOT%{_iconsdir}/jilly
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/licq
 install licq/* $RPM_BUILD_ROOT%{_iconsdir}/licq
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/mike
 install mike/* $RPM_BUILD_ROOT%{_iconsdir}/mike
-
-install -d $RPM_BUILD_ROOT%{_iconsdir}/smiley
 install smiley/* $RPM_BUILD_ROOT%{_iconsdir}/smiley
 
 %clean
