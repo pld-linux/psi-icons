@@ -4,13 +4,11 @@ Name:		psi-icons
 Version:	1
 Release:	1
 License:	GPL
-Packager:	Michal Cieslicki <yoshi@aip.pl>
-Group:		X11/Networking/Communications
+Group:		X11/Applications/Networking
 Source0:	%{name}-%{version}-%{release}.tar.gz
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
-Requires:	psi 
-BuildArch:	noarch
+Requires:	psi
 Obsoletes:	psi-icons-beos
 Obsoletes:	psi-icons-cosmic
 Obsoletes:	psi-icons-crystal
@@ -20,9 +18,10 @@ Obsoletes:	psi-icons-jilly
 Obsoletes:	psi-icons-licq
 Obsoletes:	psi-icons-mike
 Obsoletes:	psi-icons-smiley
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_iconsdir	%{_prefix}/X11R6/share/psi/iconsets
+%define		_iconsdir	%{_datadir}/psi/iconsets
 
 %description
 An icon set for PSI Jabber client:
@@ -36,139 +35,137 @@ An icon set for PSI Jabber client:
 - Mike's icons
 - Smiley - Fun Style
 
-
 %description -l pl
 Zestaw ikonek dla klienta Jabbera PSI:
-- BeOS Style (icon conversion by Gossip)
+- BeOS Style (ikony przekonwertowane przez Gossip)
 - Cosmic
 - Crystal (KDE 3, Crystal IconSet)
 - Gabber
 - Licq - icq2 Style
-- Jilly's icons
+- ikonki Jilly'ego
 - Licq - Computer Style
-- Mike's icons
+- ikonki Mike'a
 - Smiley - Fun Style
 
-%package -n psi-icons-beos
+%package beos
 Summary:	Beos icons
-Summary(pl): 	Ikonki Beos
-Group:		X11/Networking/Communications
+Summary(pl):	Ikonki Beos
+Group:		X11/Applications/Networking
 Obsoletes:	psi-icons
-Requires:       psi
+Requires:	psi
 
-%description -n psi-icons-beos
+%description beos
 "beos" - icon set for PSI Jabber client.
 
-%description -n psi-icons-beos -l pl
+%description beos -l pl
 "beos" - zestaw ikonek dla klienta Jabbera PSI.
 
+%package cosmic
+Summary:	Cosmic icons
+Summary(pl):	Ikonki Cosmic
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%package -n psi-icons-cosmic
-Summary:        cosmic icons
-Summary(pl):    Ikonki cosmic
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
-
-%description -n psi-icons-cosmic
+%description cosmic
 "cosmic" - icon set for PSI Jabber client.
 
-%description -n psi-icons-cosmic -l pl
+%description cosmic -l pl
 "cosmic" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-crystal
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package crystal
+Summary:	Crystal icons
+Summary(pl):	Ikonki Crystal
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-crystal
+%description crystal
 "crystal" - icon set for PSI Jabber client.
 
-%description -n psi-icons-crystal -l pl
+%description crystal -l pl
 "crystal" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-gabber
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package gabber
+Summary:	Gabber icons
+Summary(pl):	Ikonki Gabber
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-gabber
+%description gabber
 "gabber" - icon set for PSI Jabber client.
 
-%description -n psi-icons-gabber -l pl
+%description gabber -l pl
 "gabber" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-icq2
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package icq2
+Summary:	ICQ2 icons
+Summary(pl):	Ikonki ICQ2
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-icq2
+%description icq2
 "icq2" - icon set for PSI Jabber client.
 
-%description -n psi-icons-icq2 -l pl
+%description icq2 -l pl
 "icq2" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-jilly
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package jilly
+Summary:	Jilly's icons
+Summary(pl):	Ikonki Jilly'ego
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-jilly
+%description jilly
 "jilly" - icon set for PSI Jabber client.
 
-%description -n psi-icons-jilly -l pl
+%description jilly -l pl
 "jilly" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-licq
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package licq
+Summary:	Licq icons
+Summary(pl):	Ikonki Licq
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-licq
+%description licq
 "licq" - icon set for PSI Jabber client.
 
-%description -n psi-icons-licq -l pl
+%description licq -l pl
 "licq" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-mike
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package mike
+Summary:	Mike's icons
+Summary(pl):	Ikonki Mike'a
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-mike
+%description mike
 "mike" - icon set for PSI Jabber client.
 
-%description -n psi-icons-mike -l pl
+%description mike -l pl
 "mike" - zestaw ikonek dla klienta Jabbera PSI.
 
-%package -n psi-icons-smiley
-Summary:        Beos icons
-Summary(pl):    Ikonki Beos
-Group:          X11/Networking/Communications
-Obsoletes:      psi-icons
-Requires:       psi
+%package smiley
+Summary:	Smiley icons
+Summary(pl):	Ikonki Smiley
+Group:		X11/Applications/Networking
+Obsoletes:	psi-icons
+Requires:	psi
 
-%description -n psi-icons-smiley
+%description smiley
 "smiley" - icon set for PSI Jabber client.
 
-%description -n psi-icons-smiley -l pl
+%description smiley -l pl
 "smiley" - zestaw ikonek dla klienta Jabbera PSI.
 
 %prep
-%setup -q -n %{name}-%{version}-%{release} 
+%setup -q -n %{name}-%{version}-%{release}
 
 %build
 for file in `ls -1 *.zip`
@@ -180,83 +177,75 @@ do
 	cd ..
 done
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr
-install -d $RPM_BUILD_ROOT/usr/X11R6
-install -d $RPM_BUILD_ROOT/usr/X11R6/share
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/beos
-install beos/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/beos
+install -d $RPM_BUILD_ROOT%{_iconsdir}/beos
+install beos/* $RPM_BUILD_ROOT%{_iconsdir}/beos
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/cosmic
-install cosmic/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/cosmic
+install -d $RPM_BUILD_ROOT%{_iconsdir}/cosmic
+install cosmic/* $RPM_BUILD_ROOT%{_iconsdir}/cosmic
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/crystal
-install crystal/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/crystal
+install -d $RPM_BUILD_ROOT%{_iconsdir}/crystal
+install crystal/* $RPM_BUILD_ROOT%{_iconsdir}/crystal
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/gabber
-install gabber/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/gabber
+install -d $RPM_BUILD_ROOT%{_iconsdir}/gabber
+install gabber/* $RPM_BUILD_ROOT%{_iconsdir}/gabber
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/icq2
-install icq2/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/icq2
+install -d $RPM_BUILD_ROOT%{_iconsdir}/icq2
+install icq2/* $RPM_BUILD_ROOT%{_iconsdir}/icq2
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/jilly
-install jilly/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/jilly
+install -d $RPM_BUILD_ROOT%{_iconsdir}/jilly
+install jilly/* $RPM_BUILD_ROOT%{_iconsdir}/jilly
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/licq
-install licq/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/licq
+install -d $RPM_BUILD_ROOT%{_iconsdir}/licq
+install licq/* $RPM_BUILD_ROOT%{_iconsdir}/licq
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/mike
-install mike/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/mike
+install -d $RPM_BUILD_ROOT%{_iconsdir}/mike
+install mike/* $RPM_BUILD_ROOT%{_iconsdir}/mike
 
-install -d $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/smiley
-install smiley/* $RPM_BUILD_ROOT/usr/X11R6/share/psi/iconsets/smiley
+install -d $RPM_BUILD_ROOT%{_iconsdir}/smiley
+install smiley/* $RPM_BUILD_ROOT%{_iconsdir}/smiley
 
-#%clean
-#rm -rf $RPM_BUILD_ROOT
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_iconsdir}/*/*
+%{_iconsdir}/*
 
-
-%files -n psi-icons-beos
+%files beos
 %defattr(644,root,root,755)
-%{_iconsdir}/beos/*
+%{_iconsdir}/beos
 
-%files -n psi-icons-cosmic
+%files cosmic
 %defattr(644,root,root,755)
-%{_iconsdir}/cosmic/*
+%{_iconsdir}/cosmic
 
-%files -n psi-icons-crystal
+%files crystal
 %defattr(644,root,root,755)
-%{_iconsdir}/crystal/*
+%{_iconsdir}/crystal
 
-%files -n psi-icons-gabber
+%files gabber
 %defattr(644,root,root,755)
-%{_iconsdir}/gabber/*
+%{_iconsdir}/gabber
 
-%files -n psi-icons-icq2
+%files icq2
 %defattr(644,root,root,755)
-%{_iconsdir}/icq2/*
+%{_iconsdir}/icq2
 
-%files -n psi-icons-jilly
+%files jilly
 %defattr(644,root,root,755)
-%{_iconsdir}/jilly/*
+%{_iconsdir}/jilly
 
-%files -n psi-icons-licq
+%files licq
 %defattr(644,root,root,755)
-%{_iconsdir}/licq/*
+%{_iconsdir}/licq
 
-%files -n psi-icons-mike
+%files mike
 %defattr(644,root,root,755)
-%{_iconsdir}/mike/*
+%{_iconsdir}/mike
 
-%files -n psi-icons-smiley
+%files smiley
 %defattr(644,root,root,755)
-%{_iconsdir}/smiley/*
+%{_iconsdir}/smiley
