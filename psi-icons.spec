@@ -3,7 +3,7 @@ Summary:	An extra iconset for PSI Jabber client
 Summary(pl):	Zestaw ikonek do klienta Jabbera PSI
 Name:		psi-icons
 Version:	1.1
-%define		tar_version	%(echo %{version} | sed 's,\\.,-,g')
+%define		tar_version	%(echo %{version} | tr . -)
 Release:	1
 License:	GPL
 Group:		Applications/Communications
