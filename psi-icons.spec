@@ -9,7 +9,8 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{tar_version}.tar.gz
 # Source0-md5:	07b8f06d65cbb08997d16ca9c715b1a4
-Source1:	http://krzysiek.kobylkowska.net/grass.tar
+Source1:	http://krzysiek.kobylkowska.net/grass.tar.bz2
+# Source1-md5:	c07c0dad188a7289fc3650ab7ef0edb1
 URL:		http://psi.affinix.com/iconset.php
 BuildRequires:	unzip
 Requires:	psi
@@ -196,7 +197,9 @@ do
 	cd ..
 done
 
-tar -xf grass.tar
+rm -f ../../SOURCES/grass.tar
+bzip2 -d ../../SOURCES/grass.tar.bz2
+tar -xf ../../SOURCES/grass.tar
 
 %install
 rm -rf $RPM_BUILD_ROOT
