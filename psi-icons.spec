@@ -4,7 +4,7 @@ Summary(pl):	Zestaw ikonek do klienta Jabbera PSI
 Name:		psi-icons
 Version:	1.1
 %define		tar_version	%(echo %{version} | tr . -)
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{tar_version}.tar.gz
