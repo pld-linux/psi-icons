@@ -127,7 +127,7 @@ Over fifty various iconsets for PSI Jabber Client. Everyone will find
 something for themselves.
 
 %description -l pl
-Ponad piêcdziesi± zestawów ikonek dla klienta Jabbera PSI. Ka¿dy
+Ponad piêædziesi±t zestawów ikonek dla klienta Jabbera PSI. Ka¿dy
 znajdzie co¶ dla siebie.
 
 %package crystal-msn-bulb
