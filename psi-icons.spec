@@ -2,7 +2,7 @@ Summary:	An extra iconsets for PSI Jabber client
 Summary(pl):	Zestawy ikonek do klienta Jabbera PSI
 Name:		psi-icons
 Version:	2.0
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Communications
 # Crystal iconsets which are not included in psi tarball
@@ -204,16 +204,16 @@ Requires:	psi >= 0.10-2
 "Crystal Tlen" - ikonki listy kontaktów dla klienta Jabbera PSI.
 
 %package amirose-gg
-Summary:	Amirose Gadu Gadu iconset
-Summary(pl):	Zestaw ikonek Amirose Gadu Gadu
+Summary:	Amirose Gadu-Gadu iconset
+Summary(pl):	Zestaw ikonek Amirose Gadu-Gadu
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
 %description amirose-gg
-"Amirose Gadu Gadu" - roster icons for PSI Jabber client.
+"Amirose Gadu-Gadu" - roster icons for PSI Jabber client.
 
 %description amirose-gg -l pl
-"Amirose Gadu Gadu" - ikonki listy kontaktów dla klienta Jabbera PSI.
+"Amirose Gadu-Gadu" - ikonki listy kontaktów dla klienta Jabbera PSI.
 
 %package amirose-tlen
 Summary:	Amirose Tlen iconset
@@ -241,7 +241,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-star
 Summary:	Amirose Star iconset
-Summary(pl):	Zestaw ikonek Amirose Star Icons
+Summary(pl):	Zestaw ikonek Amirose Star
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -265,7 +265,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-yahoo
 Summary:	Amirose Yahoo iconset
-Summary(pl):	Zestaw ikonek Amirose Icons
+Summary(pl):	Zestaw ikonek Amirose Yahoo
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -396,13 +396,13 @@ Default transport icons from PSI 0.9.3.
 Domy¶lny zestaw ikonek dla transportów z PSI 0.9.3
 
 %package yahoo
-Summary:	Default Yahoo! messenger iconset iconset
-Summary(pl):	Zestaw ikonek Default Yahoo! messenger iconset
+Summary:	Default Yahoo! messenger iconset
+Summary(pl):	Domy¶lny zestaw ikonek Yahoo! messenger
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
 %description yahoo
-Defaul Yahoo! messenger roster icons for PSI Jabber client.
+Default Yahoo! messenger roster icons for PSI Jabber client.
 
 %description yahoo -l pl
 Domy¶lne ikonki listy kontaktów Yahoo! messenger dla klienta Jabbera
@@ -554,7 +554,7 @@ Requires:	psi >= 0.10-2
 
 %package wpk
 Summary:	WPKontakt iconset
-Summary(pl):	Zestaw ikonek WPKontakt iconset
+Summary(pl):	Zestaw ikonek WPKontakt
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -688,7 +688,7 @@ Requires:	psi >= 0.10-2
 StarFish Iconset from GNU Gadu 2 for PSI Jabber client.
 
 %description ggstarfish -l pl
-Zestaw ikonekt StarFish Iconset z GNU Gadu 2 dla klienta Jabbera PSI.
+Zestaw ikonekt StarFish z GNU Gadu 2 dla klienta Jabbera PSI.
 
 %package gnome-roster-left
 Summary:	PSI 0.9.x Gnome iconset
