@@ -83,8 +83,8 @@ Source35:	http://jisp.netflint.net/jisps/wpk.jisp
 # Source35-md5:	06f7be2a653ea9db8fad1eb6f01e3eed
 Source36:	http://jisp.netflint.net/jisps/dudes.jisp
 # Source36-md5:	a3bc2e3594bcbe4e4ceac29e3c589dd7
-Source37:	http://jisp.netflint.net/jisps/dudes32.jisp
-# Source37-md5:	90e120b92e79616de94c21dcd06703be
+Source37:	http://jabber.limanowa.net/psi-iconsets/dudes32.jisp
+# Source37-md5:	da89c063c1efbe0640259d6999b8fd96
 Source38:	http://jisp.netflint.net/jisps/individual.jisp
 # Source38-md5:	14c49c8d1cc6f1ea03dabe70bb15a7d1
 Source39:	http://jisp.netflint.net/jisps/kadu.jisp
