@@ -1,5 +1,5 @@
 Summary:	An extra iconsets for PSI Jabber client
-Summary(pl.UTF-8):   Zestawy ikonek do klienta Jabbera PSI
+Summary(pl.UTF-8):	Zestawy ikonek do klienta Jabbera PSI
 Name:		psi-icons
 Version:	2.0
 Release:	1
@@ -132,7 +132,7 @@ znajdzie coś dla siebie.
 
 %package crystal-msn-bulb
 Summary:	Crystal MSN Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal MSN Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Crystal MSN Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -144,7 +144,7 @@ Requires:	psi >= 0.10-2
 
 %package crystal-aim-bulb
 Summary:	Crystal AIM Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal AIM Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Crystal AIM Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -156,7 +156,7 @@ Requires:	psi >= 0.10-2
 
 %package crystal-icq-bulb
 Summary:	Crystal ICQ Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal ICQ Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Crystal ICQ Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -168,7 +168,7 @@ Requires:	psi >= 0.10-2
 
 %package crystal-yahoo-bulb
 Summary:	Crystal Yahoo Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal Yahoo Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Crystal Yahoo Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -180,7 +180,7 @@ Requires:	psi >= 0.10-2
 
 %package crystal-weather-bulb
 Summary:	Crystal Weather Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal Weather Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Crystal Weather Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -193,7 +193,7 @@ PSI.
 
 %package crystal-tlen
 Summary:	Crystal Tlen iconset
-Summary(pl.UTF-8):   Zestaw ikonek Crystal Tlen
+Summary(pl.UTF-8):	Zestaw ikonek Crystal Tlen
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -205,7 +205,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-gg
 Summary:	Amirose Gadu-Gadu iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Gadu-Gadu
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Gadu-Gadu
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -217,7 +217,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-tlen
 Summary:	Amirose Tlen iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Tlen
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Tlen
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -229,7 +229,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-aim
 Summary:	Amirose AIM iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose AIM
+Summary(pl.UTF-8):	Zestaw ikonek Amirose AIM
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -241,7 +241,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-star
 Summary:	Amirose Star iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Star
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Star
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -253,7 +253,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-icq
 Summary:	Amirose ICQ iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose ICQ
+Summary(pl.UTF-8):	Zestaw ikonek Amirose ICQ
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -265,7 +265,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-yahoo
 Summary:	Amirose Yahoo iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Yahoo
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Yahoo
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -277,7 +277,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-bulb
 Summary:	Amirose Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -289,7 +289,7 @@ Requires:	psi >= 0.10-2
 
 %package amirose-globe
 Summary:	Amirose Globe iconset
-Summary(pl.UTF-8):   Zestaw ikonek Amirose Globe
+Summary(pl.UTF-8):	Zestaw ikonek Amirose Globe
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -301,7 +301,7 @@ Requires:	psi >= 0.10-2
 
 %package aim
 Summary:	Default AIM iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek AIM
+Summary(pl.UTF-8):	Domyślny zestaw ikonek AIM
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -313,7 +313,7 @@ Domyślne ikonki listy kontaktów AIM dla klienta Jabbera PSI.
 
 %package gadugadu
 Summary:	Default Gadu-Gadu iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek Gadu-Gadu
+Summary(pl.UTF-8):	Domyślny zestaw ikonek Gadu-Gadu
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -325,7 +325,7 @@ Domyślne ikonki listy kontaktów Gadu-Gadu dla klienta Jabbera PSI.
 
 %package icq
 Summary:	Default ICQ iconset iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek ICQ
+Summary(pl.UTF-8):	Domyślny zestaw ikonek ICQ
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -337,7 +337,7 @@ Domyślne ikonki listy kontaktów ICQ dla klienta Jabbera PSI.
 
 %package lightbulb
 Summary:	Gabber1 iconset
-Summary(pl.UTF-8):   Zestaw ikonek Gabber1
+Summary(pl.UTF-8):	Zestaw ikonek Gabber1
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -349,7 +349,7 @@ Requires:	psi >= 0.10-2
 
 %package msn
 Summary:	MSN6 Original iconset
-Summary(pl.UTF-8):   Zestaw ikonek MSN6 Original
+Summary(pl.UTF-8):	Zestaw ikonek MSN6 Original
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -361,7 +361,7 @@ Requires:	psi >= 0.10-2
 
 %package sms
 Summary:	Default SMS iconset iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek SMS
+Summary(pl.UTF-8):	Domyślny zestaw ikonek SMS
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -373,7 +373,7 @@ Domyślne ikonki listy kontaktów SMS dla klienta Jabbera PSI.
 
 %package stellar-icq
 Summary:	Stellar ICQ iconset
-Summary(pl.UTF-8):   Zestaw ikonek Stellar ICQ
+Summary(pl.UTF-8):	Zestaw ikonek Stellar ICQ
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -385,7 +385,7 @@ Requires:	psi >= 0.10-2
 
 %package transport
 Summary:	Default PSI 0.9.3 iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek z PSI 0.9.3
+Summary(pl.UTF-8):	Domyślny zestaw ikonek z PSI 0.9.3
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -397,7 +397,7 @@ Domyślny zestaw ikonek dla transportów z PSI 0.9.3
 
 %package yahoo
 Summary:	Default Yahoo! messenger iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek Yahoo! messenger
+Summary(pl.UTF-8):	Domyślny zestaw ikonek Yahoo! messenger
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -410,7 +410,7 @@ PSI.
 
 %package bulb
 Summary:	Bulb iconset
-Summary(pl.UTF-8):   Zestaw ikonek Bulb
+Summary(pl.UTF-8):	Zestaw ikonek Bulb
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -422,7 +422,7 @@ Requires:	psi >= 0.10-2
 
 %package gnome-weather
 Summary:	Gnome iconset for weather transport
-Summary(pl.UTF-8):   Zestaw ikonek Gnome dla transportu pogody
+Summary(pl.UTF-8):	Zestaw ikonek Gnome dla transportu pogody
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -434,7 +434,7 @@ Zestaw ikonek Gnome dla transportu pogody w kliencie Jabbera PSI.
 
 %package kb-shiny-weather
 Summary:	Weather transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu pogody
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu pogody
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -446,7 +446,7 @@ Zestaw ikonek dla transportu pogody w kliencie Jabbera PSI.
 
 %package icqgangsta
 Summary:	ICQ transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu ICQ
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu ICQ
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -458,7 +458,7 @@ Zestaw ikonek dla transportu ICQ w kliencie Jabbera PSI.
 
 %package k
 Summary:	K iconset
-Summary(pl.UTF-8):   Zestaw ikonek K
+Summary(pl.UTF-8):	Zestaw ikonek K
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -470,7 +470,7 @@ Requires:	psi >= 0.10-2
 
 %package sms2
 Summary:	Modified SMS iconset iconset
-Summary(pl.UTF-8):   Zmodyfikowany zestaw ikonek SMS
+Summary(pl.UTF-8):	Zmodyfikowany zestaw ikonek SMS
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -482,7 +482,7 @@ Zmodyfikowany zestaw ikonek SMS dla klienta Jabbera PSI.
 
 %package weather-art
 Summary:	Weather transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu pogody
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu pogody
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -494,7 +494,7 @@ Zestaw ikonek dla transportu pogody w kliencie Jabbera PSI.
 
 %package weatheraqua
 Summary:	Weather transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu pogody
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu pogody
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -506,7 +506,7 @@ Zestaw ikonek dla transportu pogody w kliencie Jabbera PSI.
 
 %package shadowrss
 Summary:	Headlines/RSS transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu RSS
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu RSS
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -518,7 +518,7 @@ Zestaw ikonek dla transportu RSS w kliencie Jabbera PSI.
 
 %package shadowwpk
 Summary:	WPKontakt iconset
-Summary(pl.UTF-8):   Zestaw ikonek WPKontakt
+Summary(pl.UTF-8):	Zestaw ikonek WPKontakt
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -530,7 +530,7 @@ Requires:	psi >= 0.10-2
 
 %package wpkontakt2
 Summary:	WPKontakt iconset
-Summary(pl.UTF-8):   Zestaw ikonek WPKontakt
+Summary(pl.UTF-8):	Zestaw ikonek WPKontakt
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -542,7 +542,7 @@ Requires:	psi >= 0.10-2
 
 %package wpkontakt3
 Summary:	WPKontakt iconset
-Summary(pl.UTF-8):   Zestaw ikonek WPKontakt
+Summary(pl.UTF-8):	Zestaw ikonek WPKontakt
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -554,7 +554,7 @@ Requires:	psi >= 0.10-2
 
 %package wpk
 Summary:	WPKontakt iconset
-Summary(pl.UTF-8):   Zestaw ikonek WPKontakt
+Summary(pl.UTF-8):	Zestaw ikonek WPKontakt
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -566,7 +566,7 @@ Requires:	psi >= 0.10-2
 
 %package dudes
 Summary:	Simple small little dudes iconset
-Summary(pl.UTF-8):   Prosty zestaw ikonek z małymi ludzikami
+Summary(pl.UTF-8):	Prosty zestaw ikonek z małymi ludzikami
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -578,7 +578,7 @@ Prosty zestaw ikonek z małymi ludzikami dla klienta Jabbera PSI.
 
 %package dudes32
 Summary:	Simple small little dudes iconset
-Summary(pl.UTF-8):   Prosty zestaw ikonek z małymi ludzikami
+Summary(pl.UTF-8):	Prosty zestaw ikonek z małymi ludzikami
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -592,7 +592,7 @@ Wersja z niewielkim cieniowaniem.
 
 %package individual
 Summary:	Roster iconset with little IM guy
-Summary(pl.UTF-8):   Zestaw ikonek z małym ludzikiem.
+Summary(pl.UTF-8):	Zestaw ikonek z małym ludzikiem.
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -604,7 +604,7 @@ Zestaw ikonek listy kontaktów z małym ludzikiem.
 
 %package kadu
 Summary:	Icons taken from Kadu (www.kadu.net)
-Summary(pl.UTF-8):   Zestaw ikonek wzięty z Kadu (www.kadu.net)
+Summary(pl.UTF-8):	Zestaw ikonek wzięty z Kadu (www.kadu.net)
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -616,7 +616,7 @@ Ikonki listy kontaktów wzięte z Kadu i przerobione na zestaw dla PSI.
 
 %package kadu-sms
 Summary:	SMS icons taken from Kadu (www.kadu.net)
-Summary(pl.UTF-8):   Zestaw ikonek SMS wzięty z Kadu (www.kadu.net)
+Summary(pl.UTF-8):	Zestaw ikonek SMS wzięty z Kadu (www.kadu.net)
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -628,7 +628,7 @@ Ikonki SMS wzięte z Kadu i przerobione na zestaw dla PSI.
 
 %package rss
 Summary:	Headlines/RSS transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu RSS
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu RSS
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -640,7 +640,7 @@ Zestaw ikonek dla transportu RSS w kliencie Jabbera PSI.
 
 %package tlen
 Summary:	Tlen iconset
-Summary(pl.UTF-8):   Zestaw ikonek Tlen
+Summary(pl.UTF-8):	Zestaw ikonek Tlen
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -652,7 +652,7 @@ Ionki listy kontaktów Tlen dla klienta Jabbera PSI.
 
 %package weather
 Summary:	Weather transport iconset
-Summary(pl.UTF-8):   Zestaw ikonek dla transportu pogody
+Summary(pl.UTF-8):	Zestaw ikonek dla transportu pogody
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -664,7 +664,7 @@ Zestaw ikonek dla transportu pogody w kliencie Jabbera PSI.
 
 %package dictionary-es
 Summary:	Dictionary book iconset
-Summary(pl.UTF-8):   Zestaw ikonek książkowych
+Summary(pl.UTF-8):	Zestaw ikonek książkowych
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -680,7 +680,7 @@ ikonę dla ukrycia wskaźnika statusu.
 
 %package ggstarfish
 Summary:	StarFish Iconset from GNU Gadu 2
-Summary(pl.UTF-8):   Zestaw ikonek StarFish z GNU Gadu 2
+Summary(pl.UTF-8):	Zestaw ikonek StarFish z GNU Gadu 2
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -692,7 +692,7 @@ Zestaw ikonekt StarFish z GNU Gadu 2 dla klienta Jabbera PSI.
 
 %package gnome-roster-left
 Summary:	PSI 0.9.x Gnome iconset
-Summary(pl.UTF-8):   Zestaw ikonek PSI 0.9.x Gnome
+Summary(pl.UTF-8):	Zestaw ikonek PSI 0.9.x Gnome
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -704,7 +704,7 @@ Zestaw ikonek PSI 0.9.x Gnome, wersja lewostronna.
 
 %package kjabber
 Summary:	Default kJabber iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek kJabber
+Summary(pl.UTF-8):	Domyślny zestaw ikonek kJabber
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -716,7 +716,7 @@ Domyślny zestaw ikonek kJabber dla klienta Jabbera PSI.
 
 %package positiva-tlen
 Summary:	Tlen-positiva iconset
-Summary(pl.UTF-8):   Zestaw ikonek Tlen-positiva
+Summary(pl.UTF-8):	Zestaw ikonek Tlen-positiva
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -728,7 +728,7 @@ Requires:	psi >= 0.10-2
 
 %package nuvola-dicts
 Summary:	Small dictionary iconset for Nuvola theme
-Summary(pl.UTF-8):   Niewielki zestaw ikon słownikowych dla motywu Nuvola
+Summary(pl.UTF-8):	Niewielki zestaw ikon słownikowych dla motywu Nuvola
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -740,7 +740,7 @@ Niewielki zestaw ikonek słownikowych dla motywu Nuvola.
 
 %package nuvola-roster
 Summary:	Nuvola based roster iconset
-Summary(pl.UTF-8):   Zestaw ikonek bazowany na motywie Nuvola
+Summary(pl.UTF-8):	Zestaw ikonek bazowany na motywie Nuvola
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -753,7 +753,7 @@ Dystrybuowany na licencji LGPL.
 
 %package nuvola-system
 Summary:	Nuvola system iconset for PSI
-Summary(pl.UTF-8):   Zestaw ikonek systemowych Nuvola dla PSI
+Summary(pl.UTF-8):	Zestaw ikonek systemowych Nuvola dla PSI
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -766,7 +766,7 @@ licencji LGPL.
 
 %package gnome-system
 Summary:	PSI 0.9.x Gnome system iconset
-Summary(pl.UTF-8):   Zestaw ikonek systemowych PSI 0.9.x Gnome
+Summary(pl.UTF-8):	Zestaw ikonek systemowych PSI 0.9.x Gnome
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
@@ -778,7 +778,7 @@ Zestaw ikonek systemowych PSI 0.9.x Gnome
 
 %package stellar
 Summary:	Default PSI 0.9.3 system iconset
-Summary(pl.UTF-8):   Domyślny zestaw ikonek systemowych z PSI 0.9.3
+Summary(pl.UTF-8):	Domyślny zestaw ikonek systemowych z PSI 0.9.3
 Group:		Applications/Communications
 Requires:	psi >= 0.10-2
 
