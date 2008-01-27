@@ -118,7 +118,7 @@ Source52:	http://jabber.limanowa.net/psi-iconsets/gnome-system.jisp
 Source53:	http://jabber.limanowa.net/psi-iconsets/stellar.jisp
 # Source53-md5:	6b1b9fe37b6f51c64bbf507056549b34
 Source54:	http://jabber.limanowa.net/psi-iconsets/stellar2.jisp
-# Source54-md5:	6b1b9fe37b6f51c64bbf507056549b34
+# Source54-md5:	9cd07baf93000e96488d31c7915cf8fe
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
