@@ -2,7 +2,7 @@ Summary:	An extra iconsets for PSI Jabber client
 Summary(pl.UTF-8):	Zestawy ikonek do klienta Jabbera PSI
 Name:		psi-icons
 Version:	2.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Communications
 # Crystal iconsets which are not included in psi tarball
@@ -117,6 +117,8 @@ Source52:	http://jabber.limanowa.net/psi-iconsets/gnome-system.jisp
 # Source52-md5:	1df3c7a9ee8a2c9fda8b320e733aa1b7
 Source53:	http://jabber.limanowa.net/psi-iconsets/stellar.jisp
 # Source53-md5:	6b1b9fe37b6f51c64bbf507056549b34
+Source54:	http://jabber.limanowa.net/psi-iconsets/stellar2.jisp
+# Source54-md5:	6b1b9fe37b6f51c64bbf507056549b34
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -788,6 +790,18 @@ Default PSI 0.9.3 system iconset.
 %description stellar -l pl.UTF-8
 Domyślny zestaw ikonek systemowych z PSI 0.9.3.
 
+%package stellar2
+Summary:	Default PSI 0.10 roster iconset
+Summary(pl.UTF-8):	Domyślny zestaw ikonek z PSI 0.10
+Group:		Applications/Communications
+Requires:	psi >= 0.10-2
+
+%description stellar2
+Default PSI 0.10 roster iconset.
+
+%description stellar2 -l pl.UTF-8
+Domyślny zestaw ikonek z PSI 0.10.
+
 %prep
 
 %install
@@ -1066,3 +1080,7 @@ rm -rf $RPM_BUILD_ROOT
 %files stellar
 %defattr(644,root,root,755)
 %{_iconsdir}/system/stellar.jisp
+
+%files stellar2
+%defattr(644,root,root,755)
+%{_iconsdir}/system/stellar2.jisp
