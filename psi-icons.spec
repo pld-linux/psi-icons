@@ -861,6 +861,7 @@ install %{SOURCE50} $RPM_BUILD_ROOT%{_iconsdir}/roster
 install %{SOURCE51} $RPM_BUILD_ROOT%{_iconsdir}/system
 install %{SOURCE52} $RPM_BUILD_ROOT%{_iconsdir}/system
 install %{SOURCE53} $RPM_BUILD_ROOT%{_iconsdir}/system
+install %{SOURCE54} $RPM_BUILD_ROOT%{_iconsdir}/roster
 
 %clean
 rm -rf $RPM_BUILD_ROOT
