@@ -1084,4 +1084,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files stellar2
 %defattr(644,root,root,755)
-%{_iconsdir}/system/stellar2.jisp
+%{_iconsdir}/roster/stellar2.jisp
